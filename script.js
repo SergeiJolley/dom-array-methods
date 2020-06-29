@@ -1,7 +1,7 @@
 const main = document.getElementById('main');
 const addUserBtn = document.getElementById('add-user');
 const doubleBtn = document.getElementById('double');
-const showMillionairesBtn = document.getElementById('show-millionares');
+const showMillionairesBtn = document.getElementById('show-millionaires');
 const sortBtn = document.getElementById('sort');
 const calculateWealthBtn = document.getElementById('calculate-wealth');
 
@@ -86,8 +86,9 @@ sortBtn.addEventListener('click',
     sortByRichest);
 
 
+
 showMillionairesBtn.addEventListener('click',
-    showMillionaires)
+    showMillionaires);
 
 
 calculateWealthBtn.addEventListener('click',

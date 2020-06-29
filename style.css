@@ -10,6 +10,7 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
+  background-color: darkgray;
 }
 
 .container {
@@ -28,7 +29,7 @@ aside {
 
 button {
   cursor: pointer;
-  background-color: #fff;
+  background-color: rgb(162, 255, 224);
   border: solid 1px #111;
   border-radius: 5px;
   display: block;
@@ -37,6 +38,11 @@ button {
   margin-bottom: 20px;
   font-weight: bold;
   font-size: 14px;
+}
+
+button:hover {
+  background-color: deepskyblue;
+  opacity: 0.8;
 }
 
 main {
